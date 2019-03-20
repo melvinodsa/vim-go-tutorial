@@ -68,9 +68,7 @@ syntax enable
 set t_Co=256
 let g:rehash256 = 1
 let g:molokai_original = 1
-if !exists('g:not_set_color')
-  colorscheme molokai
-endif
+silent! colorscheme molokai
 
 """"""""""""""""""""""
 "      Mappings      "
